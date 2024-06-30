@@ -10,7 +10,7 @@ nltk.download('stopwords')
 def read_article(file_name):
     with open(file_name, "r") as file: 
         filedata = file.readlines()
-        article = filedata[0].split(". ")
+        article = filedata[0].split(". ") 
         sentences = []
         for sentence in article:
             sentences.append(sentence.replace("[^a-zA-Z]", " ").split(" "))
