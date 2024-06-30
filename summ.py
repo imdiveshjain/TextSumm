@@ -16,7 +16,7 @@ def read_article(file_name):
             sentences.append(sentence.replace("[^a-zA-Z]", " ").split(" "))
         sentences.pop()  # Remove last empty element if any
     return sentences
-
+ 
 def sentence_similarity(sent1, sent2, stopwords=None):
     if stopwords is None:
         stopwords = []
