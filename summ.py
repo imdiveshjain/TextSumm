@@ -8,7 +8,7 @@ import networkx as nx
 nltk.download('stopwords')
 
 def read_article(file_name):
-    with open(file_name, "r") as file:
+    with open(file_name, "r") as file: 
         filedata = file.readlines()
         article = filedata[0].split(". ")
         sentences = []
