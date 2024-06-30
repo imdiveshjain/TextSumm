@@ -4,7 +4,7 @@ from nltk.cluster.util import cosine_distance
 import numpy as np
 import networkx as nx 
 
-# Download the stopwords dataset if not already downloaded
+# Download the stopwords dataset if not already downloaded 
 nltk.download('stopwords')
 
 def read_article(file_name):
