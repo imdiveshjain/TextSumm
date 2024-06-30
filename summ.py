@@ -2,7 +2,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.cluster.util import cosine_distance
 import numpy as np
-import networkx as nx
+import networkx as nx 
 
 # Download the stopwords dataset if not already downloaded
 nltk.download('stopwords')
